@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <!--
+  /**
+   * DCKAP_Custom404Page - Version 1.0.0
+   * Copyright (c) 2015 DCKAP. All Rights Reserved.
+   * Author: DCKAP
+   * Websites: http://www.dckap.com
+   */
+   -->
+  <config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd'>
+	<router id="standard">
+		<route id="custom404Page" frontName="custom404Page">
+			<module name="DCKAP_Custom404Page" />
+		</route>
+	</router>
+  </config>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <!--
+  /**
+   * DCKAP_Custom404Page - Version 1.0.0
+   * Copyright (c) 2015 DCKAP. All Rights Reserved.
+   * Author: DCKAP
+   * Websites: http://www.dckap.com
+   */
+   -->
+  <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="content">
+			<block class="DCKAP\Custom404Page\Block\CategoryNoRoute" name="categorynoroute" template="categorynoroute.phtml" />
+		</referenceContainer>
+	</body>
+  </page>
